@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+
+    <form action="form-handling-url" method="post">
+        <fieldset>
+
+        <legend>Add User</legend>
+
+        <div>
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="first_name">
+        </div>
+
+        <div>
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" name="last_name">
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email_address">
+        </div>
+
+        <div>
+            <label for="status">Status</label>
+            <select id="status" name="user_status">
+
+                <option value="student">Student</option>
+                <option value="teacher">Teacher</option>
+                <option value="guest">Guest</option>
+
+            </select>
+        </div>
+
+        <p>Choose your favorite programming language:</p>
+
+        <div>
+            <label for="html">HTML</label>
+            <input type="radio" id="html" name="programming_language" value="html">
+        </div>
+
+        <div>
+            <label for="css">CSS</label>
+            <input type="radio" id="css" name="programming_language" value="css">
+        </div>
+
+        <div>
+            <label for="javascript">Javascript</label>
+            <input type="radio" id="javascript" name="programming_language" value="javascript">
+        </div>
+
+        <div>
+            <label for="comment">Comment</label>
+            <textarea id="comment" name="comment"></textarea>
+        </div>
+
+        <div>
+            <label for="date">Current Date</label>
+            <input type="date" id="date" name="current_date">
+        </div>
+
+        <div>
+            <label for="signUp">Sign up for newsletter</label>
+            <input type="checkbox" id="signUp" name="sign_up">
+        </div>
+
+        <div>
+            <label for="agree">Agree to terms and conditions</label>
+            <input type="checkbox" id="agree" name="agree_terms_condition">
+        </div>
+
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+
+        </fieldset>
+    </form>
+
+    </body>
+</html>
